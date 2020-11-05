@@ -1,44 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo搭建博客的参考</title>
-    <url>/2020/11/05/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%8F%82%E8%80%83/</url>
-    <content><![CDATA[<p>前两日使用Hexo搭建了自己的初步博客，过程略繁琐且曲折，浏览了很多优秀的视频教程以及帖子，对其进行了筛选并加以总结，一为帮很多像我一样的初学者省下筛选的时间，二为自己备忘，日后有问题方便查阅。</p>
-<hr />
-<a id="more"></a>
-<h1 id="一各个组件的关系">一、各个组件的关系</h1>
-<p>我觉得首先要理解好Hexo、Git、node、deploy、github等之间的关系和作用。</p>
-<p>Git、node、hexo 的安装都是对于整个客户端来说的，所以安装之后可以在任何位置查到版本号。</p>
-<p>但是从要进行hexo init 开始，就要注意是在此文件根目录下进行操作。</p>
-<p>本地的博客通过 github 生成线上博客，这个从推送的桥梁就是deploy，所以deploy的安装是对于具体的文件夹的。</p>
-<p>而要生成本地博客则与github无关。</p>
-<h1 id="二参考资源">二、参考资源</h1>
-<h2 id="建立博客">1.建立博客</h2>
-<p>从零开始建立博客推荐参考这个up的视频 <a href="https://www.bilibili.com/video/BV1Np4y1i7r5">B站视频</a></p>
-<p>文字参考推荐知乎这篇帖子 <a href="https://zhuanlan.zhihu.com/p/60578464">使用 Hexo+GitHub 搭建个人免费博客教程（小白向） - 知乎</a></p>
-<p>虽然视频使用Gitee部署的，但是和github无差，我一开始也是学习Gitee部署。但是不太喜欢手动刷新的环节，故推倒重来了。 重点是视频讲解很详细。 文字版的参考后来重新搭建博更快地作为参考。</p>
-<h2 id="主题与美化">2.主题与美化</h2>
-<p>yilia主题推荐这位up主的视频 <a href="https://www.bilibili.com/video/BV1pt411K7o9">yilia主题视频</a> 基本上将主要的模块都讲解了，yilia主题本身也很优秀。我一开始也是使用的yilia主题学习的。</p>
-<p>比较流行的next主题可以参考这个 <a href="https://www.bilibili.com/video/BV1VE411k7jP">next系列视频</a> 这位up叔叔讲得比较慢且是对着官方文档讲解，思路清晰。虽然视频里面他犯了一个错误，弹幕比他还着急hhh，但是总体来说非常好，视频有好几期。</p>
-<h2 id="其他">3.其他</h2>
-<p>其他和网上主流做法不同但是亲身体验比较好用的。</p>
-<ul>
-<li><p>浏览量统计系统valine：搜到的大多是不蒜子，纯leadcloud，但是valine(借助leancloud)就很好，且next主题里面已经配置好了相关的关键字。</p></li>
-<li><p>评论系统valine：网上的参考大多是第三方像多说什么的，但是valine自己能够both 浏览量和评论，可能是next版本更新问题。</p></li>
-<li><p>图片问题：后期写文章本地md文件能看到图片的，但是上传之后不能。在线博客只支持url，因此推荐图床和本地repository一起备份，防止图床链接失效。</p></li>
-</ul>
-<p>O(∩_∩)O刚刚入门，请多多指正。低产博主上线~</p>
-]]></content>
-      <categories>
-        <category>经验</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>博客</tag>
-        <tag>next</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>北航3系(自动化)控制科学与工程-保研经历</title>
     <url>/2020/11/05/%E5%8C%97%E8%88%AA3%E7%B3%BB(%E8%87%AA%E5%8A%A8%E5%8C%96)%E6%8E%A7%E5%88%B6%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%B7%A5%E7%A8%8B-%E4%BF%9D%E7%A0%94%E7%BB%8F%E5%8E%86/</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
@@ -131,6 +93,44 @@
       <tags>
         <tag>北航</tag>
         <tag>保研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo搭建博客的参考</title>
+    <url>/2020/11/05/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%8F%82%E8%80%83/</url>
+    <content><![CDATA[<p>前两日使用Hexo搭建了自己的初步博客，过程略繁琐且曲折，浏览了很多优秀的视频教程以及帖子，对其进行了筛选并加以总结，一为帮很多像我一样的初学者省下筛选的时间，二为自己备忘，日后有问题方便查阅。</p>
+<hr />
+<a id="more"></a>
+<h1 id="一各个组件的关系">一、各个组件的关系</h1>
+<p>我觉得首先要理解好Hexo、Git、node、deploy、github等之间的关系和作用。</p>
+<p>Git、node、hexo 的安装都是对于整个客户端来说的，所以安装之后可以在任何位置查到版本号。</p>
+<p>但是从要进行hexo init 开始，就要注意是在此文件根目录下进行操作。</p>
+<p>本地的博客通过 github 生成线上博客，这个从推送的桥梁就是deploy，所以deploy的安装是对于具体的文件夹的。</p>
+<p>而要生成本地博客则与github无关。</p>
+<h1 id="二参考资源">二、参考资源</h1>
+<h2 id="建立博客">1.建立博客</h2>
+<p>从零开始建立博客推荐参考这个up的视频 <a href="https://www.bilibili.com/video/BV1Np4y1i7r5">B站视频</a></p>
+<p>文字参考推荐知乎这篇帖子 <a href="https://zhuanlan.zhihu.com/p/60578464">使用 Hexo+GitHub 搭建个人免费博客教程（小白向） - 知乎</a></p>
+<p>虽然视频使用Gitee部署的，但是和github无差，我一开始也是学习Gitee部署。但是不太喜欢手动刷新的环节，故推倒重来了。 重点是视频讲解很详细。 文字版的参考后来重新搭建博更快地作为参考。</p>
+<h2 id="主题与美化">2.主题与美化</h2>
+<p>yilia主题推荐这位up主的视频 <a href="https://www.bilibili.com/video/BV1pt411K7o9">yilia主题视频</a> 基本上将主要的模块都讲解了，yilia主题本身也很优秀。我一开始也是使用的yilia主题学习的。</p>
+<p>比较流行的next主题可以参考这个 <a href="https://www.bilibili.com/video/BV1VE411k7jP">next系列视频</a> 这位up叔叔讲得比较慢且是对着官方文档讲解，思路清晰。虽然视频里面他犯了一个错误，弹幕比他还着急hhh，但是总体来说非常好，视频有好几期。</p>
+<h2 id="其他">3.其他</h2>
+<p>其他和网上主流做法不同但是亲身体验比较好用的。</p>
+<ul>
+<li><p>浏览量统计系统valine：搜到的大多是不蒜子，纯leadcloud，但是valine(借助leancloud)就很好，且next主题里面已经配置好了相关的关键字。</p></li>
+<li><p>评论系统valine：网上的参考大多是第三方像多说什么的，但是valine自己能够both 浏览量和评论，可能是next版本更新问题。</p></li>
+<li><p>图片问题：后期写文章本地md文件能看到图片的，但是上传之后不能。在线博客只支持url，因此推荐图床和本地repository一起备份，防止图床链接失效。</p></li>
+</ul>
+<p>O(∩_∩)O刚刚入门，请多多指正。低产博主上线~</p>
+]]></content>
+      <categories>
+        <category>经验</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客</tag>
+        <tag>next</tag>
       </tags>
   </entry>
   <entry>
