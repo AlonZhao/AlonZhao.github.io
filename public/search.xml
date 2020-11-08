@@ -177,4 +177,17 @@
         <tag>保研</tag>
       </tags>
   </entry>
+  <entry>
+    <title>1234</title>
+    <url>/2020/11/08/1234/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">输入密码</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="f3e4f6aed173202715f5527db5f2fa4eab42a9c060b74a8bc7e10daa6dbde276">8439475dbb3719266a091fccb5f6eee233a95df05d35184d6d3ad1c84e09509ef34691347aa4cc89f46494cc9b5e36e4</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
 </search>
